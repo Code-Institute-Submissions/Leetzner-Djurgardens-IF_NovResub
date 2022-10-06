@@ -17,7 +17,7 @@ I wanted a challenge creating this website so I started coding without help from
 The reason behind this is that´s the way I learn things, by doing, and I am here to learn.<br>
 <br>
 This is my first project<br>
-https://8000-leetzner-fulltemplate-h198wze6h77.ws-eu70.gitpod.io
+https://leetzner.github.io/Djurgardens-IF/
 
 
 # Built with
