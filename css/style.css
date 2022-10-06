@@ -1,0 +1,371 @@
+header{
+  background-color:#002454; 
+  width:100%;
+  text-align:center;   
+  border-radius: 20%;
+  padding-bottom: 0%;
+  padding-top: 2%;
+  animation-name: zoom;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  margin-bottom: 6%;
+}
+html {
+  scroll-behavior: smooth;
+ }
+.skold{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  padding: 50px;
+}
+
+@keyframes zoom {
+  from{
+      transform: scale(1.6);
+  }
+  to{
+      transform: scale(1);
+  }
+}
+body{
+  margin:0;
+  padding:0;
+  font-family: 'oswald', sans-serif;
+  background-color:#002454 ;
+  
+}
+
+hr{
+  border-top: 2px solid #32BBF2;
+  border-bottom: 2px solid #32BBF2;
+  width: 80%;
+  border-radius: 90%;
+  
+  margin-inline-start: 10%;
+}
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style:none;
+  background-color: #32BBF2;
+  width: 100%;
+  padding: 5px;
+  border-color: #000000;
+  border-style:double;
+  border-width: 5px;
+}
+nav li{
+  font-size: 1.4em;
+  line-height: 20px;
+  height: 20px;
+  display: inline-block;
+  padding: 20px;
+}
+nav a{
+  text-decoration: none;
+  color: #002454;
+  display: block;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #000000;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+.blue{
+  color:#002454 ;
+}
+nav a:hover{
+  background-color:#002454;
+  color:#32BBF2; 
+  height: 25px;
+} 
+.bg-image{
+  background-image: url("../pictures/damherr.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 19%;
+}
+.coaches{
+  display: inline-block;
+  border-color: #000000;
+  border-style:solid;
+  border-width: 3px;
+  text-align: center;
+  background-color:#32BBF2;
+  border-radius: 20px;
+  width: 10%;
+  text-shadow: 0px 0.5px 0px #000000;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding:50px;
+  margin-top: 25.5%;
+}
+.ladies{
+  
+  display: inline-block;
+  border-color: #000000;
+  border-style:solid;
+  border-width: 3px;
+  text-align: center;
+  background-color:#32BBF2;
+  border-radius: 20px;
+  width: 10%;
+  text-shadow: 0px 0.5px 0px #000000;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding:50px;
+}
+.gentlemens{
+  display: inline-block;
+  border-color: #000000;
+  border-style:solid;
+  border-width: 3px;
+  text-align: center;
+  background-color: #32BBF2;
+  width: 10%;
+  border-radius: 40px;
+  text-shadow: 0px 0.5px 0px #000000;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding:50px;
+}
+.p2{
+  font-size: 16px;
+  color:rgb(212, 195, 35) ;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  text-align: center;
+}
+.blue2{
+  font-size: 18px;
+  line-height: 40px;
+}
+.blue1{
+  font-size: 22px;
+  line-height:60px;
+}
+.center{
+  text-align: center;
+  color:rgb(212, 195, 35) ;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+.tele2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.arena{
+  padding: 30px;
+  width: 100%;
+  text-align: center;
+  
+}
+.arena2{
+  width: 100%;
+  border-radius: 40px;
+}
+
+.arena2:hover {
+opacity: 70%;
+transition: opacity 1s;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
+.endtext {
+  width: 50%;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a{
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h4{
+  text-align: center;
+  color:rgb(212, 195, 35);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 30px;
+  font-size: 1.2em;
+  
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  width:50%;
+}
+.font{
+  font-size: 16px;
+}
+ul{
+  list-style: none;
+  color: #002454 ;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding-inline-start: 0%;
+}
+h2 {
+  color:rgb(212, 195, 35) ;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center; 
+  display: flex;
+  justify-content: center;
+  
+}
+
+h1 {
+  color:#32BBF2 ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+  text-shadow: 1px 1px 2px #000000;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+  color: #32BBF2;
+  font-size: large;
+  text-align: center;
+  border: #32BBF2;
+  border-style: double;
+  border-width: 4px; 
+  width: 100%;
+  max-width:400px;
+  margin-left: 43%;
+  
+}
+
+p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color:rgb(212, 195, 35) ;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 2%;
+  width: 100%;
+  align-items: center;
+}
+.town{
+  display: flex;
+  justify-content: center;
+
+}
+.footer{
+  background-color: #32BBF2;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 21.4%;
+}
+.links{
+  list-style: none;
+  display: inline-block;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.links:hover{
+  opacity: 30%;
+  transition:0.5s ;
+}
+
+@media screen and (max-width:1500px) 
+{
+ .tele2{
+  flex-direction: column;
+  } 
+  .col{
+    padding: 20px;
+  }
+
+}
+@media screen and (max-width:1020px) 
+{
+  nav ul{
+    width: 100%;
+  }
+  hr{
+    width: 65%;
+  }
+ .bg-image{
+  background-attachment:fixed;
+  width: 100%;
+  column-gap: 12%;
+ }
+ .col{
+  padding: 50px;
+ }
+ .center
+ {width: 100%;}
+ h1{
+  width:100%;
+ }
+ .town{
+  width: 80%;
+ }
+ .footer{
+  zoom: 70%;
+ }
+ 
+}
+@media screen and (max-width:750px) {
+  h1{
+    
+  }
+  nav li{
+    padding: 5px;
+    font-size: small;
+  }
+  .tele2{
+    width: 100%;
+  }
+  .col{
+    padding: 20px;
+  }
+  .endtext{
+    padding: 20px;
+  }
+  .about{
+    width: 100%;
+  }
+  hr{
+    width: 100%;
+  }
+  .town{
+    zoom: 52%;
+   }
+   .footer {
+    zoom: 44%;
+    width: 100%
+   }
+   nav ul{
+    width: 100%;
+  }
+  .bg-image{
+    background-attachment:fixed;
+    width: 100%;
+    column-gap: 12%;
+   }
+
+}
