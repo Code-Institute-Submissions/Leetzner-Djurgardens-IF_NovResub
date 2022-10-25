@@ -9,9 +9,15 @@ header{
   animation-duration: 10s;
   animation-fill-mode: forwards;
   margin-bottom: 6%;
+  margin-top: 5%;
 }
 html {
   scroll-behavior: smooth;
+ }
+ .header{
+  position: fixed;
+  width: 100%;
+  top:0;
  }
 .skold{
   display: block;
@@ -157,6 +163,7 @@ nav a:hover{
   display: flex;
   flex-direction: column;
   width: 100%;
+  
 
 }
 .tele2{
