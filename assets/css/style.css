@@ -58,7 +58,7 @@ nav ul{
   list-style:none;
   background-color: #32BBF2;
   width: 100%;
-  padding: 5px;
+  padding: 0;
   border-color: #000000;
   border-style:double;
   border-width: 5px;
@@ -256,10 +256,9 @@ form{
   border: #32BBF2;
   border-style: double;
   border-width: 4px; 
-  width: 100%;
-  max-width:400px;
-  margin-left: 43%;
-  
+  width: 30%;
+  display: table;
+  margin: auto;
 }
 
 p {
@@ -319,7 +318,19 @@ p {
  .bg-image{
   background-attachment:fixed;
   width: 100%;
-  column-gap: 12%;
+  column-gap: 40%;
+  flex-direction: column;
+ }
+ .ladies{
+  width: 35%;
+ }
+ .gentlemens{
+  width: 35%;
+ }
+ .coaches{
+  width: 35%;
+  margin-top: 10px;
+  
  }
  .col{
   padding: 50px;
@@ -330,17 +341,14 @@ p {
   width:100%;
  }
  .town{
-  width: 80%;
+  width: 60%;
  }
  .footer{
   zoom: 70%;
  }
  
 }
-@media screen and (max-width:750px) {
-  h1{
-    
-  }
+@media screen and (max-width:750px){
   nav li{
     padding: 5px;
     font-size: small;
@@ -358,7 +366,7 @@ p {
     width: 100%;
   }
   hr{
-    width: 100%;
+    width: 80%;
   }
   .town{
     zoom: 52%;
