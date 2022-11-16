@@ -21,9 +21,10 @@ I will describe each part of the site with it´s existing features and hopefully
 
   - At the top of the page I´ve made a navigationbar (short nav-bar), that makes you navigate around the diffrent sections of the page.
 
-        This bar will follow you around on the page to make it easy to navigate through the sections, 
-        the buttons on the bar will change colors when you hover over them.
-        The nav-bar will stick to the top of the page even when scrolling
+    This bar will follow you around on the page to make it easy to navigate through the sections, 
+
+    the buttons on the bar will change colors when you hover over them.
+    The nav-bar will stick to the top of the page even when scrolling
 
 ![nav-bar](assets/Readme%20files/navbar.jpg)
 ![nav-bar2](assets/Readme%20files/navbar2.jpg)
@@ -39,7 +40,7 @@ I will describe each part of the site with it´s existing features and hopefully
 
   -  In the home section you will meet the beautiful crest for Djurgarden (it´s borrowed from google).
 
-            Under the crest you can read a small text that decribes the club.
+        Under the crest you can read a small text that decribes the club.
 
   ![crest](assets/Readme%20files/crest.jpg)
   ![text](assets/Readme%20files/text.jpg)
@@ -48,10 +49,10 @@ I will describe each part of the site with it´s existing features and hopefully
 
   - I´ve made some break/section lines to bring some structure to the page.
        
-        I´am very happy with the way these looks and blend in with the graphics in
-        this page.
+    I´am very happy with the way these looks and blend in with the graphics in
+    this page.
 
-        There are 3 lines that indicate every section breakpoint. These are styled "hr" and not a picture that is taken from google
+    There are 3 lines that indicate every section breakpoint.<br> These are styled "hr" and not a picture that is taken from google
     
 ![section-line](assets/Readme%20files/break.jpg)
 
@@ -59,11 +60,11 @@ I will describe each part of the site with it´s existing features and hopefully
 
   - This section gives you information about the diffrent teams of Djurgården IF.
         
-        Here is a nice background picture borrowed from Google, the background will be fixed to the site, so when you´re scrolling on the page it will appear and disappear.
+    Here is a nice background picture borrowed from Google, the background will be fixed to the site, so when you´re scrolling on the page it will appear and disappear.
 
   - The teams lists:
 
-        Theses will present you the names of each player and the number they play in aswell as which spot on the field they play.
+    Theses will present you the names of each player and the number they play in aswell as which spot on the field they play.
   
 
 ![teams](assets/Readme%20files/teams.jpg)
@@ -72,32 +73,46 @@ I will describe each part of the site with it´s existing features and hopefully
 
   - This part of the page will give you information about the teams homearena. 
     
-        You can click the picture of the arena and it will take you to the wikipedia page of  "tele2-arena" and provid you with deeper information.
+    You can click the picture of the arena and it will take you to the wikipedia page of  "tele2-arena" and provid you with deeper information.
 
-        The arena picture will be faded out to give some nice animation to the button.
+    The arena picture will be faded out to give some nice animation to the button.
 
 ![arena](assets/Readme%20files/arena-section.jpg)
 
 - __About__
 
-- This section section describes the history of the club.
+    - This section section describes the history of the club.
 
         When the club was founded, their rivalry against AIK (solna football club) and their successes in sport overall.
 
 - __footer__
 
-    - Here
+    - Here is where the magic begins, i´ve made the footer i the same color as the picture  above, they blend in nicely.<br> This picture is from google, it´s a cartoon that looks like the capital of sweden summarized
+
+        On the footer you can find 3 icons of:
+        Facbook, Twitter and instagram.<br>These will navigate you to Djurgårdens IF diffrent fan pages.
+
+        These icons will change opacity when hovered over.
+
+    ![footer](assets/Readme%20files/city.jpg)
 
 ### Features Left to Implement
 
 - The "ask us" section, the form is not a working form it´s just there for display.
 
-        Hope to get this thing working in the future
+    Will make this work in the future!
 
 ## Testing 
 
-I´ve tried this a very large number of times even my friends have played it.
-The feedback I usually get is that it´s a nice time consuming game, in the future I should implement some more cool javascripts.
+I´ve hade huge problems with the site not being responsive over different platforms.<br>
+This was a bit of a challenge for me..
+
+The site didnt fit to the screen (as seen below).<br>
+I used the "google inspect" tool alot of times to get it nice over all platforms, the main thing was that the large pictures animation stuck on the navigationbar.<br> So the size got streched and after 5 seconds it got back to normal again, this was so frustration.
+
+To solve this I ended up changing the order of the nav-bar and the header picture to solve it the easy way.
+
+![problem](assets/Readme%20files/problem.png)
 
 I´ve encountered some small bugs like the scissors wasn´t able to draw because I misspelled the word scissors in my Javascript, I missed the "s" on the end.
 When played on mobile-device the "restart-game" button stays white when pushed, but returns to the right color when you push the "sign-buttons".
