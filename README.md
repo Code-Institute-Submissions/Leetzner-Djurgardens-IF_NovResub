@@ -1,3 +1,6 @@
+![Responsive](assets/Readme%20files/approved.jpg)
+![lighthouse-tool](assets/Readme%20files/score1.jpg)
+
 # Djurgardens IF fansite
 
 I made this site about the swedish footballteam "Djurgardens IF".
@@ -8,60 +11,74 @@ This site gives you information about the clubs past and present, it provides yo
 
 You can get information about the diffrent teams (women, men and choaches) and about the homearena.
 
-![Responsive](assets/Readme%20files/approved.jpg)
-![lighthouse-tool]
-
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+I will describe each part of the site with it´s existing features and hopefully give a greater understanding about my work
 
 ### Existing Features
 
-- __Header__
+- __Navigationbar__
 
-  - Thought it was fun to implement a text of "I wan´t to play a game" (the quote is from the saw movies).
-  - Then a small text of the game content, I want to keep it very simple with the coice of this layout, focus should be on the game. 
+  - At the top of the page I´ve made a navigationbar (short nav-bar), that makes you navigate around the diffrent sections of the page.
 
-![Header](assets/readme-files/Header.jpg)
+        This bar will follow you around on the page to make it easy to navigate through the sections, 
+        the buttons on the bar will change colors when you hover over them.
+        The nav-bar will stick to the top of the page even when scrolling
 
-- __Rules__
+![nav-bar](assets/Readme%20files/navbar.jpg)
+![nav-bar2](assets/Readme%20files/navbar2.jpg)
+
+- __Header Logo__
  
-  - Thought of having a videoclip here with Sheldon from big bang theory explaining the game, but that seemed a little too much for this design.
-  - Chose to have a blue background to make the picture blend in. 
+  - The header is picture borrowed from google.
+  - The text says "Djurgården fotboll stockholm" that translates to "The football team of Stockholm, Djurgården"
 
-![Rules](assets/readme-files/rules.jpg)
+![Rules](assets/pictures/difs.png)
 
-- __Selection-section__
+- __Home section__
 
-  - This section invites you to pick a "sign" of choice. 
-  - When picked, the game will start. 
+  -  In the home section you will meet the beautiful crest for Djurgarden (it´s borrowed from google).
 
-![Selection](assets/readme-files/selection.jpg)
+            Under the crest you can read a small text that decribes the club.
 
-- __Score-section__
+  ![crest](assets/Readme%20files/crest.jpg)
+  ![text](assets/Readme%20files/text.jpg)
 
-  - This section will appear when the game is played. 
-  - It will keep track of you score against the computer, you get +1 point for wins, 0 points for draw, and -1 if you loose. 
-  - I made it so you won´t see the computers score, what matters is you!
+- __Section lines__
 
-![Score-section](assets/readme-files/scoresection.jpg)
+  - I´ve made some break/section lines to bring some structure to the page.
+       
+        I´am very happy with the way these looks and blend in with the graphics in
+        this page.
 
-- __Restart button__ 
+        There are 3 lines that indicate every section breakpoint. These are styled "hr" and not a picture that is taken from google
+    
+![section-line](assets/Readme%20files/break.jpg)
 
-  - This button will restart the game. 
-  - If you wanna be the first one to 100 points, you may want to start over if you on the minus side.
-  - When you hover over this it changes color, when you press it changes again.
+- __Teams__ 
 
-![restart-button](assets/readme-files/button1.jpg) ![button2](assets/readme-files/button2.jpg) ![button3](assets/readme-files/button3.jpg)
+  - This section gives you information about the diffrent teams of Djurgården IF.
+        
+        Here is a nice background picture borrowed from Google, the background will be fixed to the site, so when you´re scrolling on the page it will appear and disappear.
 
-- __Footer__
+  - The teams lists:
 
-  - Wrote a small text that explains how to restart the game. 
-  - There´s a facebook icon with a small opacity change when hovered ( links to my facebook page). 
+        Theses will present you the names of each player and the number they play in aswell as which spot on the field they play.
+  
 
-![footer-text](assets/readme-files/footer.jpg)![facebook-link](assets/readme-files/facebook1.jpg)
+![teams](assets/Readme%20files/teams.jpg)
 
--__The Game__
+- __Arena__
+
+  - This part of the page will give you information about the teams homearena. 
+    
+        You can click the picture of the arena and it will take you to the wikipedia page of  "tele2-arena" and provid you with deeper information.
+
+        The arena picture will be faded out to give some nice animation to the button.
+
+![arena](assets/Readme%20files/arena-section.jpg)
+
+-__About__
 
 - This is the game design I come up with.
 ![the-game](assets/readme-files/website.jpg)
