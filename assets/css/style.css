@@ -299,7 +299,11 @@ p {
   .col{
     padding: 20px;
   }
-
+  .town{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
 }
 @media screen and (max-width:1020px) 
 {
@@ -335,7 +339,8 @@ p {
   width:100%;
  }
  .town{
-  width: 60%;
+  width: 50%;
+  margin-left: 10%;
  }
  .footer{
   zoom: 70%;
@@ -367,10 +372,12 @@ p {
     width: 80%;
   }
   .town{
-    zoom: 45%;
+    zoom: 25%;
+    margin-left: 25%;
+    
    }
    .footer {
-    zoom: 44%;
+    zoom: 25%;
     width: 100%
    }
    nav ul{

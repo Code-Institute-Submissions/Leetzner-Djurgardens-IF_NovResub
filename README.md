@@ -78,13 +78,21 @@ I will describe each part of the site with it´s existing features and hopefully
 
 ![arena](assets/Readme%20files/arena-section.jpg)
 
--__About__
+- __About__
 
-- This is the game design I come up with.
-![the-game](assets/readme-files/website.jpg)
+- This section section describes the history of the club.
+
+        When the club was founded, their rivalry against AIK (solna football club) and their successes in sport overall.
+
+- __footer__
+
+    - Here
+
 ### Features Left to Implement
 
-- Graphics that make your choice vs computers choice to move the classic rock,paper,scissor motion then show results.
+- The "ask us" section, the form is not a working form it´s just there for display.
+
+        Hope to get this thing working in the future
 
 ## Testing 
 
