@@ -114,20 +114,20 @@ To solve this I ended up changing the order of the nav-bar and the header pictur
 
 ![problem](assets/Readme%20files/problem.png)
 
-I´ve encountered some small bugs like the scissors wasn´t able to draw because I misspelled the word scissors in my Javascript, I missed the "s" on the end.
-When played on mobile-device the "restart-game" button stays white when pushed, but returns to the right color when you push the "sign-buttons".
-The "sign-buttons" hover over effect dosen´t work on the mobile device, because you won´t hover with your fingers :) (so not a bugg but not same as browser)
+I struggled with the list section of the webpage, it didn´t fit the screen well to smaller displays if i used the "rows" as a flex direction, so I did a media query to make it display as "colums" on smaller devices.
+
+
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleetzner.github.io%2FJava-Game%2F)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleetzner.github.io%2FDjurgardens-IF%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fleetzner.github.io%2FJava-Game%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fleetzner.github.io%2FDjurgardens-IF%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
 ### Unfixed Bugs
 
-The computer score dosen´t count, this is not a real bug, I just left it out because I think it ruins my design (the score still counts but dosen´t show up).
+When the wepage is scrolled and you come to the arena section, the navigationbar can´t be clicked if the picture of the arena is showing over it.
 
 ## Deployment
 
@@ -138,14 +138,14 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://leetzner.github.io/Java-Game/
+The live link can be found here - https://leetzner.github.io/Djurgardens-IF/
 
 
 ## Credits 
 
-I got a great deal of help with the javascript for the game from the "Clever Programmer" on youtube.
-I´ve used his code to build on and implemented my own thought of how I wanted the game to work.
+A great deal of help came from (https://www.w3schools.com/), This helped me with the coding bit for the media querys.<br>
+Thanks to code institute for help with their diffrent challenges
 
-Found a picture that explains the game from Steam (https://steamcommunity.com/sharedfiles/filedetails/?id=798194678).
-Icons to the buttons are downloaded from (https://rwest88.github.io/Rock-Paper-Scissors/)
-Icon to facebook is downloaded from (https://icons8.com/icons/set/facebook) 
+All pictures are from google and from Djurgården IF (https://dif.se/)
+
+Icons to the social media buttons is downloaded from (https://icons8.com/icons/set/facebook) 
