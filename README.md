@@ -129,6 +129,8 @@ I struggled with the list section of the webpage, it didn´t fit the screen well
 
 When the wepage is scrolled and you come to the arena section, the navigationbar can´t be clicked if the picture of the arena is showing over it.
 
+When you go from "ask us" to: arena, about and teams section you won´t scroll.
+
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
